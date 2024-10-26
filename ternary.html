@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // even or odd
+        let num=prompt("enter a value");
+        let a=(num%2==0)? "even" : "odd";
+        console.log(a);
+
+        // score card
+        let score=prompt("enter score");
+        let b=(score>=90)? "A" : 
+             (score>=75)? "B":
+             (score>=60)? "C":
+             (score>=45)? "D": "F";
+             console.log(b);
+        
+        // temperature
+         let temp=prompt("enter temperature");
+         let c=(temp>30)? "Hot" :
+               (temp>20)? "warm" :
+               (temp>=19)? "Cool": "cold";
+               console.log(c);
+        // age
+        let age=prompt("enter ur age");
+        let d=(age<=12)? "Child":
+            (age<=19)? "Teen":
+            (age<=64)? "Adult" : "Senior";
+            
+            console.log(d);
+    </script>
+</body>
+</html>
